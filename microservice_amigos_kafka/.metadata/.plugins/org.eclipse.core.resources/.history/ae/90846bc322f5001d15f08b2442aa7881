@@ -1,0 +1,10 @@
+package com.amigoscode.config;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class KafkaListeners {
+	void listener(String data) {
+		
+	}
+}

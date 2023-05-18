@@ -1,0 +1,17 @@
+package com.amigoscode.config;
+
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class KafkaProducerConfig {
+	@Value("${spring.kafka.boostrap-servers}")
+	private String bootstrapserver;
+	
+	public Map<String,Object> producerConfig(){
+		
+	}
+
+}

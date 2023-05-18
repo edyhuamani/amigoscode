@@ -1,0 +1,2 @@
+Debe de configurarse el exchange , la cola y vincularse la cola al exchange
+y el routing key en el rabbit mq
